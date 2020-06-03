@@ -35,9 +35,13 @@ public class Main extends HttpServlet {
 			.append("<Employees>")
 				.append("<Employee>")
 					.append("<Identifier>")
-					.append("12345")
+					.append("11111")
 					.append("</Identifier>")
 
+					.append("<Type>")
+					.append("Permanent")
+					.append("</Type>")
+					
 					.append("<FirstName>")
 					.append("Testy")
 					.append("</FirstName>")
@@ -73,9 +77,13 @@ public class Main extends HttpServlet {
 				.append("</Employee>")						
 					.append("<Employee>")
 					.append("<Identifier>")
-					.append("54321")
+					.append("22222")
 					.append("</Identifier>")
-	
+					
+					.append("<Type>")
+					.append("Contractor")
+					.append("</Type>")
+					
 					.append("<FirstName>")
 					.append("Hello")
 					.append("</FirstName>")
@@ -98,6 +106,48 @@ public class Main extends HttpServlet {
 					
 					.append("<Status>")
 					.append("Inactive")
+					.append("</Status>")
+					
+					.append("<StartDate>")
+					.append("03-06-2020")
+					.append("</StartDate>")
+					
+					.append("<EndDate>")
+					.append("03-06-2025")
+					.append("</EndDate>")
+				.append("</Employee>")							
+				
+				.append("<Employee>")
+					.append("<Identifier>")
+					.append("33333")
+					.append("</Identifier>")
+					
+					.append("<Type>")
+					.append("Third-Party")
+					.append("</Type>")
+					
+					.append("<FirstName>")
+					.append("Xternal")
+					.append("</FirstName>")
+	
+					.append("<LastName>")
+					.append("Guy")
+					.append("</LastName>")
+					
+					.append("<DisplayName>")
+					.append("Xternal Guy")
+					.append("</DisplayName>")
+					
+					.append("<EmailAddress>")
+					.append("xternal.guy@radius.dk")
+					.append("</EmailAddress>")
+					
+					.append("<ManagerUniqueIdentifier>")
+					.append("9999999")
+					.append("</ManagerUniqueIdentifier>")
+					
+					.append("<Status>")
+					.append("Active")
 					.append("</Status>")
 					
 					.append("<StartDate>")
