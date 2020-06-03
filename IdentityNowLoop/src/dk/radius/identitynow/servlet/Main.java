@@ -25,14 +25,14 @@ public class Main extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// Set content type
-		response.setContentType("application/xml");
+		response.setContentType(request.getContentType());
 		
 		// Create dummy xml response
 		
 		
 		response.getWriter()
 			.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>")
-			.append("<Employees>")
+			.append("<ns0:Employees xmlns:ns0=\"urn:invixo.com:sandbox:radius:identitynow\">")
 				.append("<Employee>")
 					.append("<Identifier>")
 					.append("11111")
@@ -158,6 +158,6 @@ public class Main extends HttpServlet {
 					.append("03-06-2025")
 					.append("</EndDate>")
 				.append("</Employee>")	
-			.append("</Employees>");
+			.append("</ns0:Employees>");
 	}
 }
