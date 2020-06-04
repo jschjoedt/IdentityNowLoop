@@ -24,15 +24,15 @@ public class Parser {
             	
             	Employee emp = new Employee();
             	
-            	emp.identifier = lineData[0];
-            	emp.managerId = lineData[1];
-            	emp.firstName = lineData[3];
-            	emp.lastName = lineData[4];
+            	emp.identifier = lineData[0].trim();
+            	emp.managerId = lineData[1].trim();
+            	emp.firstName = lineData[3].trim();
+            	emp.lastName = lineData[4].trim();
             	emp.displayName = emp.lastName + ", " + emp.firstName;
-            	emp.status = lineData[5];
-            	emp.startDate = lineData[6];
-            	emp.endDate = lineData[7];
-            	emp.type = lineData[9];
+            	emp.status = lineData[5].trim();
+            	emp.startDate = lineData[6].trim();
+            	emp.endDate = lineData[7].trim();
+            	emp.type = lineData[9].trim();
             	
             	empList.add(emp);
             	
