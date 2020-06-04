@@ -50,7 +50,7 @@ public class Main extends HttpServlet {
 		StringBuilder sb = new StringBuilder();
 		
 		sb.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>")
-		.append("<ns0:EmployeesResponse xmlns:ns0=\"http://radiuselnet.dk/desc/identitynow\">")
+		.append("<ns0:EmployeesResponse xmlns:ns0=\"http://radiuselnet.dk/decs/identitynow\">")
 		.append("<Employees>");
 		for (Employee emp : empList) {
 			sb.append("<Employee>")
