@@ -1,104 +1,104 @@
-28;3704;CAJBS             ;Donald ;Duck;3;01.04.2001;00.00.0000;Administrativ medarbejder;U    
-42;32391;JESGL             ;Donald ;Duck;3;01.07.1995;00.00.0000;Administrativ medarbejder;A    
-52;35546;JESGL             ;Donald ;Duck;3;01.04.2001;00.00.0000;Administrativ medarbejder;A    
-56;464;RABOH             ;Donald ;Duck;3;01.04.2001;00.00.0000;Administrativ medarbejder;U    
-61;2094;RABOH             ;Donald ;Duck;3;01.04.2001;00.00.0000;Administrativ medarbejder;U    
-108;2094;RABOH             ;Donald ;Duck;3;01.07.2001;00.00.0000;Administrativ medarbejder;U    
-118;3600;ANBMO             ;Donald ;Duck;3;01.07.2001;00.00.0000;Administrativ medarbejder;O    
-123;464;RABOH             ;Donald ;Duck;3;01.08.2001;00.00.0000;Administrativ medarbejder;U    
-138;3459;ANBMO             ;Donald ;Duck;3;01.08.2001;00.00.0000;Administrativ medarbejder;O    
-182;2290;ANBMO             ;Donald ;Duck;3;01.10.2001;00.00.0000;Administrativ medarbejder;U    
-196;3878;FREAN             ;Donald ;Duck;3;01.11.2001;00.00.0000;Administrativ medarbejder;U    
-198;2129;TCHRI             ;Donald ;Duck;3;01.01.1996;00.00.0000;Administrativ medarbejder;U    
-229;3673;JESGL             ;Donald ;Duck;3;01.01.2002;00.00.0000;Administrativ medarbejder;A    
-230;3600;ANBMO             ;Donald ;Duck;3;01.01.2002;00.00.0000;Administrativ medarbejder;U    
-231;32391;JESGL             ;Donald ;Duck;3;01.01.2002;00.00.0000;Administrativ medarbejder;A    
-235;3671;LARJE             ;Donald ;Duck;3;01.01.2002;00.00.0000;Afdelingsleder           ;F    
-258;27925;JODJU             ;Donald ;Duck;3;01.02.2002;00.00.0000;Administrativ medarbejder;U    
-317;35546;JESGL             ;Donald ;Duck;3;21.05.2002;00.00.0000;Administrativ medarbejder;A    
-324;37176;BETHE             ;Donald ;Duck;3;01.05.2006;00.00.0000;Administrativ medarbejder;A    
-351;27925;THKIR             ;Donald ;Duck;3;29.07.2002;00.00.0000;Administrativ medarbejder;O    
-351;3600;ANBMO             ;Donald ;Duck;3;29.07.2002;00.00.0000;Administrativ medarbejder;O    
-358;2655;ANBMO             ;Donald ;Duck;3;15.08.2002;00.00.0000;Administrativ medarbejder;O    
-428;35546;JESGL             ;Donald ;Duck;3;23.09.2002;00.00.0000;Administrativ medarbejder;A    
-464;34648;RABOH             ;Donald ;Duck;3;04.11.2002;00.00.0000;Administrativ medarbejder;F    
-469;2290;ANBMO             ;Donald ;Duck;3;01.11.2002;00.00.0000;Administrativ medarbejder;O    
-480;3285;ANBMO             ;Donald ;Duck;3;13.11.2002;00.00.0000;Administrativ medarbejder;U    
-501;2094;RABOH             ;Donald ;Duck;3;01.12.2002;00.00.0000;Administrativ medarbejder;O    
-512;2655;ANBMO             ;Donald ;Duck;3;01.12.2002;00.00.0000;Administrativ medarbejder;O    
-544;2290;ANBMO             ;Donald ;Duck;3;01.01.2003;00.00.0000;Administrativ medarbejder;U    
-550;2586;JESGL             ;Donald ;Duck;3;01.01.2003;00.00.0000;Administrativ medarbejder;O    
-561;27925;JODJU             ;Donald ;Duck;3;01.01.2003;00.00.0000;Administrativ medarbejder;O    
-564;35233;LBJER             ;Donald ;Duck;3;01.01.2003;00.00.0000;Administrativ medarbejder;U    
-584;35546;JESGL             ;Donald ;Duck;3;01.01.2003;00.00.0000;Administrativ medarbejder;A    
-605;1872;STEHA             ;Donald ;Duck;3;17.03.2003;00.00.0000;Administrativ medarbejder;O    
-620;27925;JODJU             ;Donald ;Duck;3;03.03.1982;00.00.0000;Administrativ medarbejder;U    
-624;27925;JODJU             ;Donald ;Duck;3;27.02.1990;00.00.0000;Administrativ medarbejder;U    
-669;32391;JESGL             ;Donald ;Duck;3;01.08.2003;00.00.0000;Administrativ medarbejder;A    
-700;3673;JESGL             ;Donald ;Duck;3;20.10.2003;00.00.0000;Administrativ medarbejder;A    
-773;3211;ANDVI             ;Donald ;Duck;3;01.12.2004;00.00.0000;Administrativ medarbejder;U    
-812;29032;PEOAN             ;Donald ;Duck;3;01.05.2005;00.00.0000;Administrativ medarbejder;U    
-819;4392;BETPE             ;Donald ;Duck;3;01.05.2005;00.00.0000;Administrativ medarbejder;U    
-832;1872;STEHA             ;Donald ;Duck;3;01.06.2005;00.00.0000;Administrativ medarbejder;U    
-834;3835;JABJO             ;Donald ;Duck;3;01.07.2005;00.00.0000;Administrativ medarbejder;U    
-838;2086;STEHA             ;Donald ;Duck;3;01.07.2005;00.00.0000;Administrativ medarbejder;U    
-890;3600;ANBMO             ;Donald ;Duck;3;01.10.2005;00.00.0000;Administrativ medarbejder;O    
-914;27925;JODJU             ;Donald ;Duck;3;01.10.2005;00.00.0000;Administrativ medarbejder;U    
-929;27925;JODJU             ;Donald ;Duck;3;01.12.2005;00.00.0000;Administrativ medarbejder;O    
-946;37176;BETHE             ;Donald ;Duck;3;01.02.2006;00.00.0000;Administrativ medarbejder;A    
-954;2586;JESGL             ;Donald ;Duck;3;01.03.2006;00.00.0000;Administrativ medarbejder;A    
-958;3600;ANBMO             ;Donald ;Duck;3;01.03.2006;00.00.0000;Administrativ medarbejder;O    
-992;35297;EMRUP             ;Donald ;Duck;3;01.05.2004;00.00.0000;Afdelingsleder           ;F    
-995;0;MAMYM             ;Donald ;Duck;3;01.08.1978;00.00.0000;Afdelingsleder           ;F    
-995;0;MIROS             ;Donald ;Duck;3;01.08.1978;00.00.0000;Afdelingsleder           ;F    
-1002;34648;RABOH             ;Donald ;Duck;3;16.07.2001;00.00.0000;Administrativ medarbejder;U    
-1004;1007;THOBE             ;Donald ;Duck;3;15.10.1996;00.00.0000;Administrativ medarbejder;U    
-1005;3878;FREAN             ;Donald ;Duck;3;01.05.2001;00.00.0000;Administrativ medarbejder;U    
-1007;1104;THOBE             ;Donald ;Duck;3;01.09.2003;00.00.0000;Afdelingsleder           ;F    
-1025;3704;CAJBS             ;Donald ;Duck;3;01.05.2003;00.00.0000;Administrativ medarbejder;U    
-1041;3459;ANBMO             ;Donald ;Duck;3;15.03.2006;00.00.0000;Administrativ medarbejder;O    
-1054;3211;ANDVI             ;Donald ;Duck;3;01.08.2005;00.00.0000;Administrativ medarbejder;U    
-1085;35233;LBJER             ;Donald ;Duck;3;01.05.1996;00.00.0000;Administrativ medarbejder;O    
-1104;2174;ANDVI             ;Donald ;Duck;3;01.09.2002;00.00.0000;Afdelingsleder           ;F    
-1133;2290;ANBMO             ;Donald ;Duck;3;01.08.1986;00.00.0000;Administrativ medarbejder;O    
-1149;0;MAMYM             ;Donald ;Duck;3;01.08.1980;00.00.0000;Administrativ medarbejder;U    
-1149;0;MIROS             ;Donald ;Duck;3;01.08.1980;00.00.0000;Administrativ medarbejder;U    
-1156;1007;THOBE             ;Donald ;Duck;3;01.03.1998;00.00.0000;Administrativ medarbejder;U    
-1157;2290;ANBMO             ;Donald ;Duck;3;01.01.1995;00.00.0000;Administrativ medarbejder;U    
-1160;2655;ANBMO             ;Donald ;Duck;3;01.09.1984;00.00.0000;Administrativ medarbejder;O    
-1163;2290;ANBMO             ;Donald ;Duck;3;15.08.1968;00.00.0000;Administrativ medarbejder;O    
-1164;2655;ANBMO             ;Donald ;Duck;3;01.08.1986;00.00.0000;Administrativ medarbejder;O    
-1165;2290;ANBMO             ;Donald ;Duck;3;15.05.2005;00.00.0000;Administrativ medarbejder;U    
-1167;3600;ANBMO             ;Donald ;Duck;3;01.09.2002;00.00.0000;Administrativ medarbejder;O    
-1168;2586;JESGL             ;Donald ;Duck;3;14.11.1983;00.00.0000;Administrativ medarbejder;A    
-1184;2290;ANBMO             ;Donald ;Duck;3;01.05.2006;00.00.0000;Administrativ medarbejder;U    
-1184;37176;BETHE             ;Donald ;Duck;3;01.05.2006;00.00.0000;Administrativ medarbejder;U    
-1186;29032;PEOAN             ;Donald ;Duck;3;01.01.2002;00.00.0000;Administrativ medarbejder;U    
-1191;2655;ANBMO             ;Donald ;Duck;3;19.09.1988;00.00.0000;Administrativ medarbejder;O    
-1196;2655;ANBMO             ;Donald ;Duck;3;01.08.1998;00.00.0000;Administrativ medarbejder;O    
-1202;3459;ANBMO             ;Donald ;Duck;3;15.09.1981;00.00.0000;Administrativ medarbejder;O    
-1205;2655;ANBMO             ;Donald ;Duck;3;15.09.1997;00.00.0000;Administrativ medarbejder;O    
-1209;2655;ANBMO             ;Donald ;Duck;3;01.08.2003;00.00.0000;Administrativ medarbejder;O    
-1217;27925;JODJU             ;Donald ;Duck;3;01.04.1990;00.00.0000;Administrativ medarbejder;O    
-1219;3285;ANBMO             ;Donald ;Duck;3;01.04.2004;00.00.0000;Administrativ medarbejder;O    
-1262;3285;ANBMO             ;Donald ;Duck;3;08.08.2005;00.00.0000;Administrativ medarbejder;O    
-1278;2655;ANBMO             ;Donald ;Duck;3;01.11.2001;00.00.0000;Administrativ medarbejder;U    
-1313;2586;JESGL             ;Donald ;Duck;3;15.02.2007;00.00.0000;Administrativ medarbejder;A    
-1319;2094;RABOH             ;Donald ;Duck;3;01.08.2005;00.00.0000;Administrativ medarbejder;U    
-1326;2586;JESGL             ;Donald ;Duck;3;01.06.1997;00.00.0000;Administrativ medarbejder;A    
-1328;2094;RABOH             ;Donald ;Duck;3;04.11.1991;00.00.0000;Administrativ medarbejder;U    
-1331;32391;JESGL             ;Donald ;Duck;3;17.06.1985;00.00.0000;Administrativ medarbejder;A    
-1334;464;RABOH             ;Donald ;Duck;3;02.11.1981;00.00.0000;Administrativ medarbejder;U    
-1335;1007;THOBE             ;Donald ;Duck;3;01.04.2004;00.00.0000;Administrativ medarbejder;U    
-1336;2586;JESGL             ;Donald ;Duck;3;14.11.1994;00.00.0000;Administrativ medarbejder;A    
-1352;2094;RABOH             ;Donald ;Duck;3;08.04.1980;00.00.0000;Administrativ medarbejder;O    
-1370;35546;JESGL             ;Donald ;Duck;3;17.10.1983;00.00.0000;Administrativ medarbejder;A    
-1381;464;RABOH             ;Donald ;Duck;3;01.02.1990;00.00.0000;Administrativ medarbejder;U    
-1391;35546;JESGL             ;Donald ;Duck;3;01.03.1990;00.00.0000;Administrativ medarbejder;A    
-1402;2586;JESGL             ;Donald ;Duck;3;01.08.1999;00.00.0000;Administrativ medarbejder;A    
-1418;35546;JESGL             ;Donald ;Duck;3;01.03.1996;00.00.0000;Administrativ medarbejder;A    
-1427;32391;JESGL             ;Donald ;Duck;3;27.05.1991;00.00.0000;Administrativ medarbejder;A    
-1442;3600;ANBMO             ;Donald ;Duck;3;01.08.1975;00.00.0000;Administrativ medarbejder;U    
-1480;37176;BETHE             ;Donald ;Duck;3;01.09.1989;00.00.0000;Administrativ medarbejder;A    
-1493;27925;JODJU             ;Donald ;Duck;3;01.05.2006;00.00.0000;Administrativ medarbejder;O    
-1511;3673;JESGL             ;Donald ;Duck;3;01.04.1997;00.00.0000;Administrativ medarbejder;A    
+28;3704;CAJBS             ;Donald ;Duck;3;01.04.2001;00.00.0000;Administrativ medarbejder;U    ;SORHO@ORSTED.DK
+42;32391;JESGL             ;Donald ;Duck;3;01.07.1995;00.00.0000;Administrativ medarbejder;A    ;KENJE@ORSTED.DK
+52;35546;JESGL             ;Donald ;Duck;3;01.04.2001;00.00.0000;Administrativ medarbejder;A    ;RONSU@ORSTED.DK
+56;464;RABOH             ;Donald ;Duck;3;01.04.2001;00.00.0000;Administrativ medarbejder;U    ;BRIHN@ORSTED.DK
+61;2094;RABOH             ;Donald ;Duck;3;01.04.2001;00.00.0000;Administrativ medarbejder;U    ;THOEH@ORSTED.DK
+108;2094;RABOH             ;Donald ;Duck;3;01.07.2001;00.00.0000;Administrativ medarbejder;U    ;FINKO@ORSTED.DK
+118;3600;ANBMO             ;Donald ;Duck;3;01.07.2001;00.00.0000;Administrativ medarbejder;O    ;LENJP@ORSTED.DK
+123;464;RABOH             ;Donald ;Duck;3;01.08.2001;00.00.0000;Administrativ medarbejder;U    ;STEMA@ORSTED.DK
+138;3459;ANBMO             ;Donald ;Duck;3;01.08.2001;00.00.0000;Administrativ medarbejder;O    ;JEPRA@ORSTED.DK
+182;2290;ANBMO             ;Donald ;Duck;3;01.10.2001;00.00.0000;Administrativ medarbejder;U    ;KIRTH@ORSTED.DK
+196;3878;FREAN             ;Donald ;Duck;3;01.11.2001;00.00.0000;Administrativ medarbejder;U    ;DORJE@ORSTED.DK
+198;2129;TCHRI             ;Donald ;Duck;3;01.01.1996;00.00.0000;Administrativ medarbejder;U    ;KIMHE@ORSTED.DK
+229;3673;JESGL             ;Donald ;Duck;3;01.01.2002;00.00.0000;Administrativ medarbejder;A    ;STEBA@ORSTED.DK
+230;3600;ANBMO             ;Donald ;Duck;3;01.01.2002;00.00.0000;Administrativ medarbejder;U    ;MIKJO@ORSTED.DK
+231;32391;JESGL             ;Donald ;Duck;3;01.01.2002;00.00.0000;Administrativ medarbejder;A    ;JAMOR@ORSTED.DK
+235;3671;LARJE             ;Donald ;Duck;3;01.01.2002;00.00.0000;Afdelingsleder           ;F    ;LARJE@ORSTED.DK
+258;27925;JODJU             ;Donald ;Duck;3;01.02.2002;00.00.0000;Administrativ medarbejder;U    ;PETTR@ORSTED.DK
+317;35546;JESGL             ;Donald ;Duck;3;21.05.2002;00.00.0000;Administrativ medarbejder;A    ;MIKDA@ORSTED.DK
+324;37176;BETHE             ;Donald ;Duck;3;01.05.2006;00.00.0000;Administrativ medarbejder;A    ;ERLHA@ORSTED.DK
+351;27925;THKIR             ;Donald ;Duck;3;29.07.2002;00.00.0000;Administrativ medarbejder;O    ;CHTRY@ORSTED.DK
+351;3600;ANBMO             ;Donald ;Duck;3;29.07.2002;00.00.0000;Administrativ medarbejder;O    ;CHTRY@ORSTED.DK
+358;2655;ANBMO             ;Donald ;Duck;3;15.08.2002;00.00.0000;Administrativ medarbejder;O    ;DERWA@ORSTED.DK
+428;35546;JESGL             ;Donald ;Duck;3;23.09.2002;00.00.0000;Administrativ medarbejder;A    ;PRETH@ORSTED.DK
+464;34648;RABOH             ;Donald ;Duck;3;04.11.2002;00.00.0000;Administrativ medarbejder;F    ;ERIBL@ORSTED.DK
+469;2290;ANBMO             ;Donald ;Duck;3;01.11.2002;00.00.0000;Administrativ medarbejder;O    ;ANNNI@ORSTED.DK
+480;3285;ANBMO             ;Donald ;Duck;3;13.11.2002;00.00.0000;Administrativ medarbejder;U    ;ANBLP@ORSTED.DK
+501;2094;RABOH             ;Donald ;Duck;3;01.12.2002;00.00.0000;Administrativ medarbejder;O    ;PERME@ORSTED.DK
+512;2655;ANBMO             ;Donald ;Duck;3;01.12.2002;00.00.0000;Administrativ medarbejder;O    ;ANNBK@ORSTED.DK
+544;2290;ANBMO             ;Donald ;Duck;3;01.01.2003;00.00.0000;Administrativ medarbejder;U    ;KIMOL@ORSTED.DK
+550;2586;JESGL             ;Donald ;Duck;3;01.01.2003;00.00.0000;Administrativ medarbejder;O    ;LENVI@ORSTED.DK
+561;27925;JODJU             ;Donald ;Duck;3;01.01.2003;00.00.0000;Administrativ medarbejder;O    ;LINKN@ORSTED.DK
+564;35233;LBJER             ;Donald ;Duck;3;01.01.2003;00.00.0000;Administrativ medarbejder;U    ;JOYDA@ORSTED.DK
+584;35546;JESGL             ;Donald ;Duck;3;01.01.2003;00.00.0000;Administrativ medarbejder;A    ;JAKKL@ORSTED.DK
+605;1872;STEHA             ;Donald ;Duck;3;17.03.2003;00.00.0000;Administrativ medarbejder;O    ;LARDH@ORSTED.DK
+620;27925;JODJU             ;Donald ;Duck;3;03.03.1982;00.00.0000;Administrativ medarbejder;U    ;JANGA@ORSTED.DK
+624;27925;JODJU             ;Donald ;Duck;3;27.02.1990;00.00.0000;Administrativ medarbejder;U    ;MICBA@ORSTED.DK
+669;32391;JESGL             ;Donald ;Duck;3;01.08.2003;00.00.0000;Administrativ medarbejder;A    ;JORGM@ORSTED.DK
+700;3673;JESGL             ;Donald ;Duck;3;20.10.2003;00.00.0000;Administrativ medarbejder;A    ;MHELA@ORSTED.DK
+773;3211;ANDVI             ;Donald ;Duck;3;01.12.2004;00.00.0000;Administrativ medarbejder;U    ;CARBN@ORSTED.DK
+812;29032;PEOAN             ;Donald ;Duck;3;01.05.2005;00.00.0000;Administrativ medarbejder;U    ;THOTO@ORSTED.DK
+819;4392;BETPE             ;Donald ;Duck;3;01.05.2005;00.00.0000;Administrativ medarbejder;U    ;KIMCH@ORSTED.DK
+832;1872;STEHA             ;Donald ;Duck;3;01.06.2005;00.00.0000;Administrativ medarbejder;U    ;UFFJO@ORSTED.DK
+834;3835;JABJO             ;Donald ;Duck;3;01.07.2005;00.00.0000;Administrativ medarbejder;U    ;ROLAN@ORSTED.DK
+838;2086;STEHA             ;Donald ;Duck;3;01.07.2005;00.00.0000;Administrativ medarbejder;U    ;MARDE@ORSTED.DK
+890;3600;ANBMO             ;Donald ;Duck;3;01.10.2005;00.00.0000;Administrativ medarbejder;O    ;TINFU@ORSTED.DK
+914;27925;JODJU             ;Donald ;Duck;3;01.10.2005;00.00.0000;Administrativ medarbejder;U    ;RAHAM@ORSTED.DK
+929;27925;JODJU             ;Donald ;Duck;3;01.12.2005;00.00.0000;Administrativ medarbejder;O    ;ANWEN@ORSTED.DK
+946;37176;BETHE             ;Donald ;Duck;3;01.02.2006;00.00.0000;Administrativ medarbejder;A    ;MORER@ORSTED.DK
+954;2586;JESGL             ;Donald ;Duck;3;01.03.2006;00.00.0000;Administrativ medarbejder;A    ;DIASE@ORSTED.DK
+958;3600;ANBMO             ;Donald ;Duck;3;01.03.2006;00.00.0000;Administrativ medarbejder;O    ;LAULI@ORSTED.DK
+992;35297;EMRUP             ;Donald ;Duck;3;01.05.2004;00.00.0000;Afdelingsleder           ;F    ;YVOKA@ORSTED.DK
+995;0;MAMYM             ;Donald ;Duck;3;01.08.1978;00.00.0000;Afdelingsleder           ;F    ;KIRBA@ORSTED.DK
+995;0;MIROS             ;Donald ;Duck;3;01.08.1978;00.00.0000;Afdelingsleder           ;F    ;KIRBA@ORSTED.DK
+1002;34648;RABOH             ;Donald ;Duck;3;16.07.2001;00.00.0000;Administrativ medarbejder;U    ;BJADY@ORSTED.DK
+1004;1007;THOBE             ;Donald ;Duck;3;15.10.1996;00.00.0000;Administrativ medarbejder;U    ;JESSK@ORSTED.DK
+1005;3878;FREAN             ;Donald ;Duck;3;01.05.2001;00.00.0000;Administrativ medarbejder;U    ;JACSU@ORSTED.DK
+1007;1104;THOBE             ;Donald ;Duck;3;01.09.2003;00.00.0000;Afdelingsleder           ;F    ;THOBE@ORSTED.DK
+1025;3704;CAJBS             ;Donald ;Duck;3;01.05.2003;00.00.0000;Administrativ medarbejder;U    ;SORSC@ORSTED.DK
+1041;3459;ANBMO             ;Donald ;Duck;3;15.03.2006;00.00.0000;Administrativ medarbejder;O    ;HENSH@ORSTED.DK
+1054;3211;ANDVI             ;Donald ;Duck;3;01.08.2005;00.00.0000;Administrativ medarbejder;U    ;TRIFL@ORSTED.DK
+1085;35233;LBJER             ;Donald ;Duck;3;01.05.1996;00.00.0000;Administrativ medarbejder;O    ;ANNMP@ORSTED.DK
+1104;2174;ANDVI             ;Donald ;Duck;3;01.09.2002;00.00.0000;Afdelingsleder           ;F    ;SISBA@ORSTED.DK
+1133;2290;ANBMO             ;Donald ;Duck;3;01.08.1986;00.00.0000;Administrativ medarbejder;O    ;JESGP@ORSTED.DK
+1149;0;MAMYM             ;Donald ;Duck;3;01.08.1980;00.00.0000;Administrativ medarbejder;U    ;FINWI@ORSTED.DK
+1149;0;MIROS             ;Donald ;Duck;3;01.08.1980;00.00.0000;Administrativ medarbejder;U    ;FINWI@ORSTED.DK
+1156;1007;THOBE             ;Donald ;Duck;3;01.03.1998;00.00.0000;Administrativ medarbejder;U    ;ARTRO@ORSTED.DK
+1157;2290;ANBMO             ;Donald ;Duck;3;01.01.1995;00.00.0000;Administrativ medarbejder;U    ;ERLBO@ORSTED.DK
+1160;2655;ANBMO             ;Donald ;Duck;3;01.09.1984;00.00.0000;Administrativ medarbejder;O    ;KARBP@ORSTED.DK
+1163;2290;ANBMO             ;Donald ;Duck;3;15.08.1968;00.00.0000;Administrativ medarbejder;O    ;LENCA@ORSTED.DK
+1164;2655;ANBMO             ;Donald ;Duck;3;01.08.1986;00.00.0000;Administrativ medarbejder;O    ;MAJRJ@ORSTED.DK
+1165;2290;ANBMO             ;Donald ;Duck;3;15.05.2005;00.00.0000;Administrativ medarbejder;U    ;NKJPE@ORSTED.DK
+1167;3600;ANBMO             ;Donald ;Duck;3;01.09.2002;00.00.0000;Administrativ medarbejder;O    ;PERBC@ORSTED.DK
+1168;2586;JESGL             ;Donald ;Duck;3;14.11.1983;00.00.0000;Administrativ medarbejder;A    ;DENPE@ORSTED.DK
+1184;2290;ANBMO             ;Donald ;Duck;3;01.05.2006;00.00.0000;Administrativ medarbejder;U    ;FLEPK@ORSTED.DK
+1184;37176;BETHE             ;Donald ;Duck;3;01.05.2006;00.00.0000;Administrativ medarbejder;U    ;FLEPK@ORSTED.DK
+1186;29032;PEOAN             ;Donald ;Duck;3;01.01.2002;00.00.0000;Administrativ medarbejder;U    ;HHRIH@ORSTED.DK
+1191;2655;ANBMO             ;Donald ;Duck;3;19.09.1988;00.00.0000;Administrativ medarbejder;O    ;ELSNI@ORSTED.DK
+1196;2655;ANBMO             ;Donald ;Duck;3;01.08.1998;00.00.0000;Administrativ medarbejder;O    ;QUATR@ORSTED.DK
+1202;3459;ANBMO             ;Donald ;Duck;3;15.09.1981;00.00.0000;Administrativ medarbejder;O    ;VALLA@ORSTED.DK
+1205;2655;ANBMO             ;Donald ;Duck;3;15.09.1997;00.00.0000;Administrativ medarbejder;O    ;SOLRA@ORSTED.DK
+1209;2655;ANBMO             ;Donald ;Duck;3;01.08.2003;00.00.0000;Administrativ medarbejder;O    ;JETMA@ORSTED.DK
+1217;27925;JODJU             ;Donald ;Duck;3;01.04.1990;00.00.0000;Administrativ medarbejder;O    ;JYTJE@ORSTED.DK
+1219;3285;ANBMO             ;Donald ;Duck;3;01.04.2004;00.00.0000;Administrativ medarbejder;O    ;SUHAL@ORSTED.DK
+1262;3285;ANBMO             ;Donald ;Duck;3;08.08.2005;00.00.0000;Administrativ medarbejder;O    ;ANNHZ@ORSTED.DK
+1278;2655;ANBMO             ;Donald ;Duck;3;01.11.2001;00.00.0000;Administrativ medarbejder;U    ;SSPEL@ORSTED.DK
+1313;2586;JESGL             ;Donald ;Duck;3;15.02.2007;00.00.0000;Administrativ medarbejder;A    ;MICON@ORSTED.DK
+1319;2094;RABOH             ;Donald ;Duck;3;01.08.2005;00.00.0000;Administrativ medarbejder;U    ;HENRD@ORSTED.DK
+1326;2586;JESGL             ;Donald ;Duck;3;01.06.1997;00.00.0000;Administrativ medarbejder;A    ;LASSJ@ORSTED.DK
+1328;2094;RABOH             ;Donald ;Duck;3;04.11.1991;00.00.0000;Administrativ medarbejder;U    ;STENE@ORSTED.DK
+1331;32391;JESGL             ;Donald ;Duck;3;17.06.1985;00.00.0000;Administrativ medarbejder;A    ;ARNEL@ORSTED.DK
+1334;464;RABOH             ;Donald ;Duck;3;02.11.1981;00.00.0000;Administrativ medarbejder;U    ;BOSVE@ORSTED.DK
+1335;1007;THOBE             ;Donald ;Duck;3;01.04.2004;00.00.0000;Administrativ medarbejder;U    ;GEOLU@ORSTED.DK
+1336;2586;JESGL             ;Donald ;Duck;3;14.11.1994;00.00.0000;Administrativ medarbejder;A    ;RENTH@ORSTED.DK
+1352;2094;RABOH             ;Donald ;Duck;3;08.04.1980;00.00.0000;Administrativ medarbejder;O    ;POUOV@ORSTED.DK
+1370;35546;JESGL             ;Donald ;Duck;3;17.10.1983;00.00.0000;Administrativ medarbejder;A    ;JACTE@ORSTED.DK
+1381;464;RABOH             ;Donald ;Duck;3;01.02.1990;00.00.0000;Administrativ medarbejder;U    ;DANSC@ORSTED.DK
+1391;35546;JESGL             ;Donald ;Duck;3;01.03.1990;00.00.0000;Administrativ medarbejder;A    ;BENGU@ORSTED.DK
+1402;2586;JESGL             ;Donald ;Duck;3;01.08.1999;00.00.0000;Administrativ medarbejder;A    ;STESV@ORSTED.DK
+1418;35546;JESGL             ;Donald ;Duck;3;01.03.1996;00.00.0000;Administrativ medarbejder;A    ;PETJT@ORSTED.DK
+1427;32391;JESGL             ;Donald ;Duck;3;27.05.1991;00.00.0000;Administrativ medarbejder;A    ;KURSO@ORSTED.DK
+1442;3600;ANBMO             ;Donald ;Duck;3;01.08.1975;00.00.0000;Administrativ medarbejder;U    ;TOMES@ORSTED.DK
+1480;37176;BETHE             ;Donald ;Duck;3;01.09.1989;00.00.0000;Administrativ medarbejder;A    ;JOROR@ORSTED.DK
+1493;27925;JODJU             ;Donald ;Duck;3;01.05.2006;00.00.0000;Administrativ medarbejder;O    ;ANNIA@ORSTED.DK
+1511;3673;JESGL             ;Donald ;Duck;3;01.04.1997;00.00.0000;Administrativ medarbejder;A    ;JOHUJ@ORSTED.DK
