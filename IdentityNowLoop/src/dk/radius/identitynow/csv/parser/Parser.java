@@ -33,6 +33,7 @@ public class Parser {
             	emp.startDate = lineData[6].trim();
             	emp.endDate = lineData[7].trim();
             	emp.type = lineData[9].trim();
+            	emp.email = lineData[10].trim().toLowerCase();
             	
             	empList.add(emp);
             	
