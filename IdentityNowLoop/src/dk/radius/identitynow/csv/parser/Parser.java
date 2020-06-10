@@ -30,7 +30,7 @@ public class Parser {
 
 			// Create employee for each new line
 			Employee emp = new Employee();
-			emp.identifier = lineData[0].trim();
+			emp.identifier = lineData[2].trim();
 			emp.managerId = lineData[1].trim();
 			emp.firstName = lineData[3].trim();
 			emp.lastName = lineData[4].trim();
