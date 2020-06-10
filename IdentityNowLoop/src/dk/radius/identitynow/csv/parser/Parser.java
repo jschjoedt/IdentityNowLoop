@@ -30,7 +30,8 @@ public class Parser {
 
 			// Create employee for each new line
 			Employee emp = new Employee();
-			emp.identifier = lineData[2].trim();
+			emp.email = lineData[10].trim().toLowerCase();
+			emp.identifier = emp.email.substring(0, emp.email.indexOf("@"));
 			emp.managerId = lineData[1].trim();
 			emp.firstName = lineData[3].trim();
 			emp.lastName = lineData[4].trim();
@@ -39,7 +40,6 @@ public class Parser {
 			emp.startDate = lineData[6].trim();
 			emp.endDate = lineData[7].trim();
 			emp.type = lineData[9].trim();
-			emp.email = lineData[10].trim().toLowerCase();
 
 			// Add to list
 			empList.add(emp);
