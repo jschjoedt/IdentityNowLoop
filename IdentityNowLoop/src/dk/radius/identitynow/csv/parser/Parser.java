@@ -31,7 +31,7 @@ public class Parser {
 			// Create employee for each new line
 			Employee emp = new Employee();
 			emp.email = lineData[10].trim().toLowerCase();
-			emp.identifier = emp.email.substring(0, emp.email.indexOf("@"));
+			emp.identifier = emp.email.substring(0, emp.email.indexOf("@")); //TODO: Change when included in csv data
 			emp.managerId = lineData[1].trim();
 			emp.firstName = lineData[3].trim();
 			emp.lastName = lineData[4].trim();
@@ -40,6 +40,7 @@ public class Parser {
 			emp.startDate = lineData[6].trim();
 			emp.endDate = lineData[7].trim();
 			emp.type = lineData[9].trim();
+			emp.companyCode = getCompanyCode(emp.type); //TODO: Change when included in csv data
 
 			// Add to list
 			empList.add(emp);
@@ -52,6 +53,23 @@ public class Parser {
 		return empList;
 	}
 	
+
+	private static String getCompanyCode(String employeeType) {
+		String companyCode = "";
+		
+		// Simulate a company code and return it (not part of csv yet)
+		if (employeeType.equals("O") || employeeType.equals("F") || employeeType.equals("U")) {
+			companyCode = "2705";
+		} else if (employeeType.equals("E")) {
+			companyCode = "2700";
+		} else if (employeeType.equals("A")) {
+			companyCode = "4500";
+		}
+		
+		// Return company code
+		return companyCode;
+	}
+
 
 	/**
 	 * Build an XML string based on a list of employees.
@@ -69,45 +87,49 @@ public class Parser {
 		// Process and add each employee in list
 		for (Employee emp : empList) {
 			sb.append("<Employee>")
-			.append("<Identifier>")
-			.append(emp.identifier)
-			.append("</Identifier>")
-
-			.append("<Type>")
-			.append(emp.type)
-			.append("</Type>")
-
-			.append("<FirstName>")
-			.append(emp.firstName)
-			.append("</FirstName>")
-
-			.append("<LastName>")
-			.append(emp.lastName)
-			.append("</LastName>")
-
-			.append("<DisplayName>")
-			.append(emp.displayName)
-			.append("</DisplayName>")
-
-			.append("<EmailAddress>")
-			.append(emp.email)
-			.append("</EmailAddress>")
-
-			.append("<ManagerUniqueIdentifier>")
-			.append(emp.managerId)
-			.append("</ManagerUniqueIdentifier>")
-
-			.append("<Status>")
-			.append(emp.status)
-			.append("</Status>")
-
-			.append("<StartDate>")
-			.append(emp.startDate)
-			.append("</StartDate>")
-
-			.append("<EndDate>")
-			.append(emp.endDate)
-			.append("</EndDate>")	
+				.append("<Identifier>")
+				.append(emp.identifier)
+				.append("</Identifier>")
+	
+				.append("<Type>")
+				.append(emp.type)
+				.append("</Type>")
+	
+				.append("<CompanyCode>")
+				.append(emp.companyCode)
+				.append("</CompanyCode>")
+				
+				.append("<FirstName>")
+				.append(emp.firstName)
+				.append("</FirstName>")
+	
+				.append("<LastName>")
+				.append(emp.lastName)
+				.append("</LastName>")
+	
+				.append("<DisplayName>")
+				.append(emp.displayName)
+				.append("</DisplayName>")
+	
+				.append("<EmailAddress>")
+				.append(emp.email)
+				.append("</EmailAddress>")
+	
+				.append("<ManagerUniqueIdentifier>")
+				.append(emp.managerId)
+				.append("</ManagerUniqueIdentifier>")
+	
+				.append("<Status>")
+				.append(emp.status)
+				.append("</Status>")
+	
+				.append("<StartDate>")
+				.append(emp.startDate)
+				.append("</StartDate>")
+	
+				.append("<EndDate>")
+				.append(emp.endDate)
+				.append("</EndDate>")	
 			.append("</Employee>");		
 		}
 
