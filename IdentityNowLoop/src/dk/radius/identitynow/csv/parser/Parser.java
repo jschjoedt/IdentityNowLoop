@@ -29,9 +29,7 @@ public class Parser {
 			String[] lineData = line.split(cvsSplitBy);
 
 			// Create employee for each new line
-			Employee emp = new Employee();
-			emp.email = lineData[10].trim().toLowerCase();
-			emp.identifier = emp.email.substring(0, emp.email.indexOf("@")); //TODO: Change when included in csv data
+			Employee emp = new Employee();			
 			emp.managerId = lineData[1].trim();
 			emp.firstName = lineData[3].trim();
 			emp.lastName = lineData[4].trim();
@@ -40,6 +38,8 @@ public class Parser {
 			emp.startDate = lineData[6].trim();
 			emp.endDate = lineData[7].trim();
 			emp.type = lineData[9].trim();
+			emp.email = lineData[10].trim().toLowerCase();
+			emp.identifier = lineData[11].trim();
 			emp.companyCode = getCompanyCode(emp.type); //TODO: Change when included in csv data
 
 			// Add to list
