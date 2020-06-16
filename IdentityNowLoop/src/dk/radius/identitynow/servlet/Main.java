@@ -7,13 +7,17 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.sap.tc.logging.Location;
+
 import dk.radius.identitynow.csv.parser.Parser;
+import dk.radius.identitynow.utils.Logger;
 
 /**
  * Servlet implementation class Main
  */
 public class Main extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+	private static final Location location = Location.getLocation(Main.class);
        
     /**
      * @see HttpServlet#HttpServlet()
@@ -26,8 +30,8 @@ public class Main extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// Set content type
-		response.setContentType(request.getContentType());
+		// Copy content type
+		copyContentType(request, response);
 		
 		// Load test data from local file in project
 		InputStream is = getServletContext().getResourceAsStream("/TestData/Test_extract_csv.csv");
@@ -37,5 +41,13 @@ public class Main extends HttpServlet {
 		
 		// Set response
 		response.getWriter().append(employeesResponse);
+	}
+
+	private void copyContentType(HttpServletRequest request, HttpServletResponse response) {
+		String SIGNATURE = "copyContentType(HttpServletRequest, HttpServletResponse)";
+		
+		String contentType = request.getContentType();
+		response.setContentType(contentType);
+		Logger.writeLogEntry(SIGNATURE, location, "Content type set: " + contentType);
 	}
 }
