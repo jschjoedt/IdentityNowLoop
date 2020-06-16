@@ -30,17 +30,21 @@ public class Main extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String SIGNATURE = "doGet(HttpServletRequest, HttpServletResponse)";
+		
 		// Copy content type
 		copyContentType(request, response);
 		
 		// Load test data from local file in project
 		InputStream is = getServletContext().getResourceAsStream("/TestData/Test_extract_csv.csv");
+		Logger.writeLogEntry(SIGNATURE, location, "Test data read and ready to use");
 		
 		// Process local test data
 		String employeesResponse = Parser.processEmployeeData(is);
 		
 		// Set response
 		response.getWriter().append(employeesResponse);
+		Logger.writeLogEntry(SIGNATURE, location, "Employee payload written to response");
 	}
 
 	private void copyContentType(HttpServletRequest request, HttpServletResponse response) {

@@ -6,9 +6,14 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
+import com.sap.tc.logging.Location;
+
 import dk.radius.identitynow.pojo.Employee;
+import dk.radius.identitynow.servlet.Main;
+import dk.radius.identitynow.utils.Logger;
 
 public class Parser {
+	private static final Location location = Location.getLocation(Main.class);
 	
 	/**
 	 * Extract employee data from CSV test data and map to Employee pojo.
@@ -17,6 +22,8 @@ public class Parser {
 	 * @throws IOException
 	 */
 	private static ArrayList<Employee> extractEmployees(InputStream is) throws IOException {
+		String SIGNATURE = "extractEmployees(InputStream)";
+		
 		ArrayList<Employee> empList = new ArrayList<Employee>();
 
 		// Read test data stream
@@ -49,6 +56,9 @@ public class Parser {
 		// Done reading
 		br.close();
 		
+		// Write to log
+		Logger.writeLogEntry(SIGNATURE, location, "Employees read: " + empList.size());
+		
 		// Return list of loaded Employees
 		return empList;
 	}
@@ -77,6 +87,7 @@ public class Parser {
 	 * @return <i>String</i>: XML representation of employee data to match SAP ECC format
 	 */
 	private static String buildEmployeeResponse(ArrayList<Employee> empList) {
+		String SIGNATURE = "buildemployeeResponse(ArrayList<Employee>)";
 		StringBuilder sb = new StringBuilder();
 
 		// Add XML start of response
@@ -137,6 +148,9 @@ public class Parser {
 		sb.append("</Employees>")
 		.append("</ns0:EmployeesResponse>");
 
+		// Write to log
+		Logger.writeLogEntry(SIGNATURE, location, "Employee XML response build");
+		
 		// Return full response
 		return sb.toString();
 	}
