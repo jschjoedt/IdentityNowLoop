@@ -57,7 +57,7 @@ public class Parser {
 		br.close();
 		
 		// Write to log
-		Logger.writeLogEntry(SIGNATURE, location, "Employees read: " + empList.size());
+		Logger.writeLogEntry(SIGNATURE, location, "Employees extracted from stream: " + empList.size());
 		
 		// Return list of loaded Employees
 		return empList;

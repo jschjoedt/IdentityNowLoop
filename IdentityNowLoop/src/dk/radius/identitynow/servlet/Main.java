@@ -32,6 +32,9 @@ public class Main extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String SIGNATURE = "doGet(HttpServletRequest, HttpServletResponse)";
 		
+		// Log who is using the test service
+		Logger.writeLogEntry(SIGNATURE, location, "*** Start processing employee test data ***");
+		
 		// Copy content type
 		copyContentType(request, response);
 		
@@ -45,6 +48,7 @@ public class Main extends HttpServlet {
 		// Set response
 		response.getWriter().append(employeesResponse);
 		Logger.writeLogEntry(SIGNATURE, location, "Employee payload written to response");
+		Logger.writeLogEntry(SIGNATURE, location, "*** End processing employee test data ***");
 	}
 
 	private void copyContentType(HttpServletRequest request, HttpServletResponse response) {
