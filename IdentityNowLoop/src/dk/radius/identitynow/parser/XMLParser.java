@@ -24,10 +24,10 @@ public class XMLParser {
 
 	private static ArrayList<DO_Employee> extractEmployees(InputStream is) throws ServletException {
 		String SIGNATURE = "extractEmployees(InputStream)";
-		
+
 		// Write to log
 		Logger.writeLogEntry(SIGNATURE, location, "Start processing InputStream...");
-		
+
 		ArrayList<DO_Employee> empList = new ArrayList<DO_Employee>();
 		DO_Employee emp = null;
 
@@ -46,100 +46,148 @@ public class XMLParser {
 						emp = new DO_Employee();
 						break;
 
-					case "initials":						
-						emp.initials = "" + reader.nextEvent().asCharacters().getData();
+					case "initials":		
+						if (reader.peek().isCharacters()) {
+							emp.initials = reader.nextEvent().asCharacters().getData();
+						}
 						break;
 
 					case "firstName":
-						emp.firstName = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.firstName = reader.nextEvent().asCharacters().getData();
+						}
 						break;
 
 					case "lastName":
-						emp.lastName = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.lastName = reader.nextEvent().asCharacters().getData();
+						}
 						break;
 
 					case "title":
-						emp.title = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.title = reader.nextEvent().asCharacters().getData();
+						}
 						break;
 
 					case "email":
-						emp.email = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.email = reader.nextEvent().asCharacters().getData();
+						}
 						break;
 
 					case "phone":
-						emp.phone = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.phone = reader.nextEvent().asCharacters().getData().trim();
+						}
 						break;
-						
+
 					case "consultantEmail":
-						emp.consultantEmail = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.consultantEmail = reader.nextEvent().asCharacters().getData();
+						}
 						break;
 
 					case "mobile":
-						emp.mobile = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.mobile = reader.nextEvent().asCharacters().getData();
+						}
 						break;
 
 					case "office":
-						emp.office = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.office = reader.nextEvent().asCharacters().getData();
+						}
 						break;
 
 					case "hrEmployeeNo":
-						emp.hrEmployeeNo = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.hrEmployeeNo = reader.nextEvent().asCharacters().getData();
+						}
 						break;	
 
 					case "hrActiveStatus":
-						emp.hrActiveStatus = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.hrActiveStatus = reader.nextEvent().asCharacters().getData();
+						}
 						break;	
 
 					case "hrEmployeeType":
-						emp.hrEmployeeType = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.hrEmployeeType = reader.nextEvent().asCharacters().getData();
+						}
 						break;	
 
 					case "hrDepartmentNo":
-						emp.hrDepartmentNo = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.hrDepartmentNo = reader.nextEvent().asCharacters().getData();
+						}
 						break;	
 
 					case "hrLocationId":
-						emp.hrLocationId = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.hrLocationId = reader.nextEvent().asCharacters().getData();
+						}
 						break;	
 
 					case "hrCountryCode":
-						emp.hrCountryCode = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.hrCountryCode = reader.nextEvent().asCharacters().getData();
+						}
 						break;	
 
 					case "hrLagalCompany":
-						emp.hrLagalCompany = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.hrLagalCompany = reader.nextEvent().asCharacters().getData();
+						}
 						break;	
 
 					case "hrCostCenter":
-						emp.hrCostCenter = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.hrCostCenter = reader.nextEvent().asCharacters().getData();
+						}
 						break;	
 
 					case "employmentDateString":
-						emp.employmentDateString = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.employmentDateString = reader.nextEvent().asCharacters().getData();
+						}
 						break;	
 
 					case "departureDateString":
-						emp.departureDateString = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.departureDateString = reader.nextEvent().asCharacters().getData();
+						}
 						break;	
 
 					case "tdbMobilePhone":
-						emp.tdbMobilePhone = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.tdbMobilePhone = reader.nextEvent().asCharacters().getData();
+						}
 						break;	
 
 					case "hrCompanyCode":
-						emp.hrCompanyCode = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.hrCompanyCode = reader.nextEvent().asCharacters().getData();
+						}
 						break;	
 
 					case "eeSubgroup":
-						emp.eeSubgroup = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.eeSubgroup = reader.nextEvent().asCharacters().getData();
+						}
 						break;	
 
 					case "citizenship":
-						emp.citizenship = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.citizenship = reader.nextEvent().asCharacters().getData();
+						}
 						break;	
 
 					case "countryOfResidence":
-						emp.countryOfResidence = "" + reader.nextEvent().asCharacters().getData();
+						if (reader.peek().isCharacters()) {
+							emp.countryOfResidence = reader.nextEvent().asCharacters().getData();
+						}
 						break;	
 					}
 				}
@@ -153,13 +201,13 @@ public class XMLParser {
 					}
 				}
 			}
-			
+
 			// Write to log
 			Logger.writeLogEntry(SIGNATURE, location, "Employees found: " + empList.size());
 
 			// Return employees found
 			return empList;
-			
+
 		} catch (XMLStreamException e) {
 			throw new ServletException("Error parsing test XML: " + e.getMessage());
 		}
