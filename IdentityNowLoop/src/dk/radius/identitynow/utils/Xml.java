@@ -24,7 +24,7 @@ public class Xml {
 		// Add XML start of response
 		StringBuilder sb = new StringBuilder();
 		sb.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>")
-		.append("<employees>");
+		.append("<ns0:employees xmlns:ns0=\"http://radius.dk/decs/identitynow\">");
 
 		// Process and add each employee in list
 		for (DO_Employee emp : empList) {
@@ -129,7 +129,7 @@ public class Xml {
 		}
 
 		// finalize XML response
-		sb.append("</employees>");
+		sb.append("</ns0:employees>");
 
 		// Write to log
 		Logger.writeLogEntry(SIGNATURE, location, "End: build employee response XML");
