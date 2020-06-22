@@ -2,6 +2,9 @@ package dk.radius.identitynow.servlet;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.time.Duration;
+import java.time.Instant;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -32,9 +35,12 @@ public class Main extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String SIGNATURE = "doGet(HttpServletRequest, HttpServletResponse)";
-
+		
+		// Set start time
+		Instant startTimer = Instant.now();
+		
 		// Log start
-		Logger.writeLogEntry(SIGNATURE, location, "*** Start processing employee test data ***");
+		Logger.writeLogEntry(SIGNATURE, location, "==> Start processing employee test data @" + startTimer);
 
 		// Copy content type
 		copyContentType(request, response);
@@ -49,7 +55,13 @@ public class Main extends HttpServlet {
 		// Set response
 		response.getWriter().append(employeesResponse);
 		Logger.writeLogEntry(SIGNATURE, location, "Employee payload written to response");
-		Logger.writeLogEntry(SIGNATURE, location, "*** End processing employee test data ***");
+		
+		// Set end time
+		Instant endTimer = Instant.now();
+		
+		// Write to log
+		Logger.writeLogEntry(SIGNATURE, location, "<== End processing employee test data @" + endTimer);
+		Logger.writeLogEntry(SIGNATURE, location, "# Total runtime: " + Duration.between(startTimer, endTimer).toMillis() + " ms #");
 	}
 
 

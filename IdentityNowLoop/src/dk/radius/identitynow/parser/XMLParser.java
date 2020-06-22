@@ -26,7 +26,7 @@ public class XMLParser {
 		String SIGNATURE = "extractEmployees(InputStream)";
 
 		// Write to log
-		Logger.writeLogEntry(SIGNATURE, location, "Start processing InputStream...");
+		Logger.writeLogEntry(SIGNATURE, location, "Start: Extracting employees");
 
 		ArrayList<DO_Employee> empList = new ArrayList<DO_Employee>();
 		DO_Employee emp = null;
@@ -203,7 +203,7 @@ public class XMLParser {
 			}
 
 			// Write to log
-			Logger.writeLogEntry(SIGNATURE, location, "Employees found: " + empList.size());
+			Logger.writeLogEntry(SIGNATURE, location, "End: Extracting employees (found: " + empList.size() + ")");
 
 			// Return employees found
 			return empList;

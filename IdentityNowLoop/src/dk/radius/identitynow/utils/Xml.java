@@ -17,9 +17,12 @@ public class Xml {
 	 */
 	public static String buildEmployeeResponse(ArrayList<DO_Employee> empList) {
 		String SIGNATURE = "buildemployeeResponse(ArrayList<Employee>)";
-		StringBuilder sb = new StringBuilder();
 
+		// Write to log
+		Logger.writeLogEntry(SIGNATURE, location, "Start: build employee response XML");
+		
 		// Add XML start of response
+		StringBuilder sb = new StringBuilder();
 		sb.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>")
 		.append("<employees>");
 
@@ -129,7 +132,7 @@ public class Xml {
 		sb.append("</employees>");
 
 		// Write to log
-		Logger.writeLogEntry(SIGNATURE, location, "Employee XML response build");
+		Logger.writeLogEntry(SIGNATURE, location, "End: build employee response XML");
 		
 		// Return full response
 		return sb.toString();
