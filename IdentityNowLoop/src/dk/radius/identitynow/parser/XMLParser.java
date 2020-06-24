@@ -106,6 +106,12 @@ public class XMLParser {
 						}
 						break;	
 
+					case "hrManagerNo":
+						if (reader.peek().isCharacters()) {
+							emp.hrManagerNo = reader.nextEvent().asCharacters().getData();
+						}
+						break;	
+						
 					case "hrActiveStatus":
 						if (reader.peek().isCharacters()) {
 							emp.hrActiveStatus = reader.nextEvent().asCharacters().getData();
