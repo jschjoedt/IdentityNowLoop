@@ -69,6 +69,10 @@ public class Xml {
 				.append(emp.hrEmployeeNo)
 				.append("</hrEmployeeNo>")
 				
+				.append("<hrManagerNo>")
+				.append(emp.hrManagerNo)
+				.append("</hrManagerNo>")
+				
 				.append("<hrActiveStatus>")
 				.append(emp.hrActiveStatus)
 				.append("</hrActiveStatus>")
@@ -89,9 +93,9 @@ public class Xml {
 				.append(emp.hrCountryCode)
 				.append("</hrCountryCode>")
 				
-				.append("<hrLagalCompany>")
-				.append(emp.hrLagalCompany)
-				.append("</hrLagalCompany>")
+				.append("<hrLegalCompany>")
+				.append(emp.hrLegalCompany)
+				.append("</hrLegalCompany>")
 				
 				.append("<hrCostCenter>")
 				.append(emp.hrCostCenter)

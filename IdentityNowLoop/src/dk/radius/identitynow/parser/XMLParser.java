@@ -138,7 +138,7 @@ public class XMLParser {
 
 					case "hrLagalCompany":
 						if (reader.peek().isCharacters()) {
-							emp.hrLagalCompany = reader.nextEvent().asCharacters().getData();
+							emp.hrLegalCompany = reader.nextEvent().asCharacters().getData();
 						}
 						break;	
 

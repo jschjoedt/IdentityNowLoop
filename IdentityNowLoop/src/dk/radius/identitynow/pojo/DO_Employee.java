@@ -12,12 +12,13 @@ public class DO_Employee {
 	public String mobile = "";
 	public String office = "";
 	public String hrEmployeeNo = "";
+	public String hrManagerNo = "";
 	public String hrActiveStatus = "";
 	public String hrEmployeeType = "";
 	public String hrDepartmentNo = "";
 	public String hrLocationId = "";
 	public String hrCountryCode = "";
-	public String hrLagalCompany = "";
+	public String hrLegalCompany = "";
 	public String hrCostCenter = "";
 	public String employmentDateString = "";
 	public String departureDateString = "";
