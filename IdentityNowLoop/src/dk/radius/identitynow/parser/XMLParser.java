@@ -122,6 +122,12 @@ public class XMLParser {
 						if (reader.peek().isCharacters()) {
 							emp.hrEmployeeType = reader.nextEvent().asCharacters().getData();
 						}
+						break;
+						
+					case "hrConsultantType":
+						if (reader.peek().isCharacters()) {
+							emp.hrConsultantType = reader.nextEvent().asCharacters().getData();
+						}
 						break;	
 
 					case "hrDepartmentNo":

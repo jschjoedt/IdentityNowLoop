@@ -15,6 +15,7 @@ public class DO_Employee {
 	public String hrManagerNo = "";
 	public String hrActiveStatus = "";
 	public String hrEmployeeType = "";
+	public String hrConsultantType = "";
 	public String hrDepartmentNo = "";
 	public String hrLocationId = "";
 	public String hrCountryCode = "";
