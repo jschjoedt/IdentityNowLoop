@@ -81,6 +81,10 @@ public class Xml {
 				.append(emp.hrEmployeeType)
 				.append("</hrEmployeeType>")
 				
+				.append("<hrConsultantType>")
+				.append(emp.hrConsultantType)
+				.append("</hrConsultantType>")
+				
 				.append("<hrDepartmentNo>")
 				.append(emp.hrDepartmentNo)
 				.append("</hrDepartmentNo>")
