@@ -23,7 +23,7 @@ public class Xml {
 		
 		// Add XML start of response
 		StringBuilder sb = new StringBuilder();
-		sb.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>")
+		sb.append("<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>")
 		.append("<ns0:employees xmlns:ns0=\"http://radius.dk/decs/identitynow\">");
 
 		// Process and add each employee in list
