@@ -1,7 +1,6 @@
 package dk.radius.identitynow.parser;
 
-import java.io.InputStream;
-import java.nio.charset.StandardCharsets;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 import javax.servlet.ServletException;
@@ -22,7 +21,7 @@ import dk.radius.identitynow.utils.Xml;
 public class XMLParser {
 	private static final Location location = Location.getLocation(Main.class);
 
-	private static ArrayList<DO_Employee> extractEmployees(InputStream is) throws ServletException {
+	private static ArrayList<DO_Employee> extractEmployees(InputStreamReader isr) throws ServletException {
 		String SIGNATURE = "extractEmployees(InputStream)";
 
 		// Write to log
@@ -34,8 +33,7 @@ public class XMLParser {
 
 		XMLInputFactory xmlInputFactory = XMLInputFactory.newInstance();
 		try {
-			// Use charset that supports Danish special characters "זרו"
-			XMLEventReader reader = xmlInputFactory.createXMLEventReader(is, StandardCharsets.ISO_8859_1.name());
+			XMLEventReader reader = xmlInputFactory.createXMLEventReader(isr);
 
 			while (reader.hasNext()) {
 				XMLEvent nextEvent = reader.nextEvent();
@@ -232,9 +230,9 @@ public class XMLParser {
 	 * @return String XML representation of expected SAP ECC data
 	 * @throws ServletException 
 	 */
-	public static String processEmployeeData(InputStream is) throws ServletException {
+	public static String processEmployeeData(InputStreamReader isr) throws ServletException {
 		// Extract employees from xml file
-		ArrayList<DO_Employee> empList = extractEmployees(is);
+		ArrayList<DO_Employee> empList = extractEmployees(isr);
 
 		// Create XML string from employee list
 		String response = Xml.buildEmployeeResponse(empList);

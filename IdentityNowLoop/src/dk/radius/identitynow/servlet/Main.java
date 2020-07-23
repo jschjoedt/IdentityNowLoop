@@ -1,7 +1,8 @@
 package dk.radius.identitynow.servlet;
 
 import java.io.IOException;
-import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.time.Duration;
 import java.time.Instant;
 
@@ -44,13 +45,13 @@ public class Main extends HttpServlet {
 
 		// Copy content type
 		copyContentType(request, response);
-
+		
 		// Load test data from local file in project
-		InputStream is = getServletContext().getResourceAsStream(TEST_FILE_NAME);
+		InputStreamReader isr = new InputStreamReader(getServletContext().getResourceAsStream(TEST_FILE_NAME), StandardCharsets.UTF_8.name());
 		Logger.writeLogEntry(SIGNATURE, location, "Test data read from: " + TEST_FILE_NAME + ", and ready to use");
 
 		// Process local test data
-		String employeesResponse = XMLParser.processEmployeeData(is);
+		String employeesResponse = XMLParser.processEmployeeData(isr);
 
 		// Set response
 		response.getWriter().append(employeesResponse);
@@ -68,7 +69,7 @@ public class Main extends HttpServlet {
 	private void copyContentType(HttpServletRequest request, HttpServletResponse response) {
 		String SIGNATURE = "copyContentType(HttpServletRequest, HttpServletResponse)";
 
-		String contentType = request.getContentType();
+		String contentType = "application/xml";
 		response.setContentType(contentType);
 		Logger.writeLogEntry(SIGNATURE, location, "Content type set: " + contentType);
 	}
