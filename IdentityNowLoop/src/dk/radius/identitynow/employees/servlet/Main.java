@@ -1,4 +1,4 @@
-package dk.radius.identitynow.servlet;
+package dk.radius.identitynow.employees.servlet;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -12,8 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import com.sap.tc.logging.Location;
 
-import dk.radius.identitynow.parser.XMLParser;
-import dk.radius.identitynow.utils.Logger;
+import dk.radius.identitynow.employees.parser.XMLParser;
+import dk.radius.identitynow.employees.utils.Logger;
 
 /**
  * Servlet implementation class Main

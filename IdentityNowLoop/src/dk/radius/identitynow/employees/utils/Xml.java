@@ -1,10 +1,10 @@
-package dk.radius.identitynow.utils;
+package dk.radius.identitynow.employees.utils;
 
 import java.util.ArrayList;
 
 import com.sap.tc.logging.Location;
 
-import dk.radius.identitynow.pojo.DO_Employee;
+import dk.radius.identitynow.employees.pojo.DO_Employee;
 
 public class Xml {
 

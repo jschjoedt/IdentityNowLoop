@@ -1,4 +1,4 @@
-package dk.radius.identitynow.parser;
+package dk.radius.identitynow.employees.parser;
 
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -13,10 +13,10 @@ import javax.xml.stream.events.XMLEvent;
 
 import com.sap.tc.logging.Location;
 
-import dk.radius.identitynow.pojo.DO_Employee;
-import dk.radius.identitynow.servlet.Main;
-import dk.radius.identitynow.utils.Logger;
-import dk.radius.identitynow.utils.Xml;
+import dk.radius.identitynow.employees.pojo.DO_Employee;
+import dk.radius.identitynow.employees.servlet.Main;
+import dk.radius.identitynow.employees.utils.Logger;
+import dk.radius.identitynow.employees.utils.Xml;
 
 public class XMLParser {
 	private static final Location location = Location.getLocation(Main.class);

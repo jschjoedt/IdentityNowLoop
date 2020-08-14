@@ -1,4 +1,4 @@
-package dk.radius.identitynow.pojo;
+package dk.radius.identitynow.employees.pojo;
 
 public class DO_Employee {
 	

@@ -1,4 +1,4 @@
-package dk.radius.identitynow.utils;
+package dk.radius.identitynow.employees.utils;
 
 import com.sap.tc.logging.Location;
 import com.sap.tc.logging.Severity;
