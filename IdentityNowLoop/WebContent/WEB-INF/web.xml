@@ -13,7 +13,7 @@
     <description></description>
     <display-name>Employees</display-name>
     <servlet-name>Employees</servlet-name>
-    <servlet-class>dk.radius.identitynow.servlet.Main</servlet-class>
+    <servlet-class>dk.radius.identitynow.employees.servlet.Main</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Employees</servlet-name>
