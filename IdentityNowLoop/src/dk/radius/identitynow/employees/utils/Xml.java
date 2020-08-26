@@ -49,21 +49,21 @@ public class Xml {
 				.append(emp.email)
 				.append("</email>")
 				
-				.append("<phone>")
-				.append(emp.phone)
-				.append("</phone>")
+//				.append("<phone>")
+//				.append(emp.phone)
+//				.append("</phone>")
 				
-				.append("<consultantEmail>")
-				.append(emp.consultantEmail)
-				.append("</consultantEmail>")
+//				.append("<consultantEmail>")
+//				.append(emp.consultantEmail)
+//				.append("</consultantEmail>")
 				
 				.append("<mobile>")
 				.append(emp.mobile)
 				.append("</mobile>")
 				
-				.append("<office>")
-				.append(emp.office)
-				.append("</office>")
+//				.append("<office>")
+//				.append(emp.office)
+//				.append("</office>")
 				
 				.append("<hrEmployeeNo>")
 				.append(emp.hrEmployeeNo)
@@ -97,13 +97,13 @@ public class Xml {
 				.append(emp.hrCountryCode)
 				.append("</hrCountryCode>")
 				
-				.append("<hrLegalCompany>")
-				.append(emp.hrLegalCompany)
-				.append("</hrLegalCompany>")
+//				.append("<hrLegalCompany>")
+//				.append(emp.hrLegalCompany)
+//				.append("</hrLegalCompany>")
 				
-				.append("<hrCostCenter>")
-				.append(emp.hrCostCenter)
-				.append("</hrCostCenter>")
+//				.append("<hrCostCenter>")
+//				.append(emp.hrCostCenter)
+//				.append("</hrCostCenter>")
 				
 				.append("<employmentDateString>")
 				.append(emp.employmentDateString)
@@ -113,25 +113,25 @@ public class Xml {
 				.append(emp.departureDateString)
 				.append("</departureDateString>")
 				
-				.append("<tdbMobilePhone>")
-				.append(emp.tdbMobilePhone)
-				.append("</tdbMobilePhone>")
+//				.append("<tdbMobilePhone>")
+//				.append(emp.tdbMobilePhone)
+//				.append("</tdbMobilePhone>")
 				
 				.append("<hrCompanyCode>")
 				.append(emp.hrCompanyCode)
 				.append("</hrCompanyCode>")
 				
-				.append("<eeSubgroup>")
-				.append(emp.eeSubgroup)
-				.append("</eeSubgroup>")
+//				.append("<eeSubgroup>")
+//				.append(emp.eeSubgroup)
+//				.append("</eeSubgroup>")
 				
-				.append("<citizenship>")
-				.append(emp.citizenship)
-				.append("</citizenship>")
+//				.append("<citizenship>")
+//				.append(emp.citizenship)
+//				.append("</citizenship>")
 				
-				.append("<countryOfResidence>")
-				.append(emp.countryOfResidence)
-				.append("</countryOfResidence>")
+//				.append("<countryOfResidence>")
+//				.append(emp.countryOfResidence)
+//				.append("</countryOfResidence>")
 				
 			.append("</employee>");		
 		}
